@@ -1,62 +1,28 @@
+# 🧳 Travel Assistant Chatbot
 
-# 🦜🔗 Travel Chatbot with RAG Chain
+An AI-powered chatbot that helps you plan your travels! It can chat with you, give real-time weather updates, and even search the web for current events—all from a simple chat interface.
 
-This project implements a travel chatbot powered by the RAG (Retrieve and Generate) chain, providing real-time information retrieval using various tools and the ability to fetch weather reports.
+## 🚀 Features
 
-## Features
+- 💬 Chat with an AI travel assistant
+- 🌤️ Get real-time weather updates (via OpenWeatherMap API)
+- 🔎 Search for current information and news (via Google Serper API)
+- 🤖 Powered by OpenAI (GPT-3.5-Turbo)
+- 🧠 Remembers previous messages during the chat session
 
-- **Conversational Interface**: Engage in a conversation with the travel chatbot.
-- **RAG Chain Integration**: Utilizes RAG (Retrieve and Generate) chain for natural language processing.
-- **Real-time Tool Search**: Access to real-time information through integrated tools.
-- **Weather Report**: Fetch current weather data based on the user's location.
+## 🛠️ Built With
 
-## Getting Started
+- [LangChain](https://www.langchain.com/)
+- [Streamlit](https://streamlit.io/)
+- [OpenAI API](https://platform.openai.com/)
+- [OpenWeatherMap API](https://openweathermap.org/api)
+- [Google Serper API](https://serper.dev/)
 
-### Prerequisites
+## 📦 Installation
 
-- Python 3.7 or higher
-- OpenAI API key
-- Google Serper API key
-- OpenWeatherMap API key
-
-### Installation
-
-1. Clone the repository:
-
-    ```bash
-    git clone https://github.com/samthakur587/travel-chatbot
-    cd travel-chatbot
-    ```
-
-2. Install dependencies:
-
-    ```bash
-    pip install -r requirement.txt
-    ```
-
-3. Set up environment variables:
-
-    - `OPENAI_API_KEY`: Your OpenAI API key
-    - `SERPER_API_KEY`: Your Google Serper API key
-    - `OPENWEATHERMAP_API_KEY`: Your OpenWeatherMap API key
-
-4. Run the application:
-
-    ```bash
-    streamlit run app.py
-    ```
-
-### Usage
-
-- Access the application via the provided Streamlit URL.
-- Input your query or engage in a conversation with the travel chatbot.
-- If prompted, enter your OpenAI API key in the sidebar.
-
-## Contributing
-
-Contributions are welcome! Feel free to submit issues or pull requests for any enhancements or bug fixes.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
+```bash
+git clone https://github.com/yourusername/travel-chatbot.git
+cd travel-chatbot
+python -m venv venv
+venv\Scripts\activate  # On Windows
+pip install -r requirement.txt
